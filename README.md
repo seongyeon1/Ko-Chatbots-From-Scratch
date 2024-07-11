@@ -4,7 +4,9 @@
 > **아이펠 Project & Main Quest** <br/> 
 > **프로젝트 기간: 2024.06.21** <br/>
 
-## ⭐️ 프로젝트 소개
+<br>
+
+## 프로젝트 소개
 - 한국어 챗봇 데이터를 바탕으로 한국어 챗봇을 만들어보는 프로젝트틀 진행했습니다.
 
 - `Transformer for ChatBot From Scratch`
@@ -20,7 +22,9 @@
   Youngsook Song.(2018). Chatbot_data_for_Korean v1.0)[Online].
   Available : https://github.com/songys/Chatbot_data (downloaded 2022. June. 29.)
   ```
-## 사용용도
+<br>
+
+## 사용 용도
 - [korean-chatbot-Transformer.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-Transformer.ipynb)
   - Transformer에 대한 자세한 구조를 코드를 통해 확인해보고 싶다면 이 코드를 통해 학습할 수 있습니다
   - 또한, 이 파일에는 custom model을 저장하는 코드가 추가되어 있습니다
@@ -28,8 +32,9 @@
 - [korean-chatbot-GPT.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-GPT.ipynb)
   - 위 transformer notebook을 보고 GPT를 이해하고 싶다면 이 파일을 통해 쉽게 이해할 수 있을 것입니다
 
+<br>
 ----
-## 📚 STACKS
+## 사용 기술
 
 ### Environment
 ![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
@@ -42,8 +47,9 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-## 변경사항 (Transformer 에서 GPT로)
+<br>
+----
+## Transformer 에서 GPT로의 변경 사항 요약
 - 자세한 코드는 [korean-chatbot-GPT.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-GPT.ipynb) 참고
 
 ### 전처리 단계
@@ -82,8 +88,9 @@
     - 인코더 출력 제거 : encoder_outputs 제거
     - 마스킹 방식 : padding mask 제거, look_ahead_mask 만 사용하면됨
 
+<br>
 
-
+----
 회고 및 결론
 ---
 ### 회고
@@ -140,7 +147,9 @@
 ### 결론
 - 직접 Transformer와 GPT를 구현하면서 자세한 구조에 대해서 배울 수 있었습니다
 - 이번 경험을 통해 Transformer, GPT 구조에 대해 잘 알 수 있게 되었습니다
+<br>
 
+---
 ## 디렉토리 구조
 ```bash
 ├── README.md
