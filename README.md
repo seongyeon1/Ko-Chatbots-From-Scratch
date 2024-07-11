@@ -25,11 +25,11 @@
 <br>
 
 ## 사용 용도
-- [korean-chatbot-Transformer.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-Transformer.ipynb)
+- [korean-chatbot-Transformer.ipynb](korean-chatbot-Transformer.ipynb)
   - Transformer에 대한 자세한 구조를 코드를 통해 확인해보고 싶다면 이 코드를 통해 학습할 수 있습니다
   - 또한, 이 파일에는 custom model을 저장하는 코드가 추가되어 있습니다
   - learning rate, model 구조를 customize 했을 때 어떻게 모델을 저장하고 불러오는지 참고하기 좋을 것 같습니다
-- [korean-chatbot-GPT.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-GPT.ipynb)
+- [korean-chatbot-GPT.ipynb](korean-chatbot-GPT.ipynb)
   - 위 transformer notebook을 보고 GPT를 이해하고 싶다면 이 파일을 통해 쉽게 이해할 수 있을 것입니다
 
 <br>
