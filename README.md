@@ -52,7 +52,7 @@
 <br>
 ----
 ## Transformer 에서 GPT로의 변경 사항 요약
-- 자세한 코드는 [korean-chatbot-GPT.ipynb](Ko-Chatbots-From-Scratch/korean-chatbot-GPT.ipynb) 참고
+- 자세한 코드는 [korean-chatbot-GPT.ipynb](korean-chatbot-GPT.ipynb) 참고
 
 ### 전처리 단계
     - Unsupervised Pre-training
