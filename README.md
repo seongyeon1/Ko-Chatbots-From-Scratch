@@ -90,43 +90,50 @@
 <details>
   <summary><b>Transformer 구현 회고</b></summary>
   <div markdown="1">
-    <li> 배운 점
-      <li>transformer의 구조에 대해 좀 더 명확히 이해할 수 있었다 </li>
-      <li>custom 모델 저장하는 방법을 배웠다 </li>
-      <li>숫자를 제거하는 전처리 제거만으로도 대답이 확연히 달라지는 것을 볼 수 있었다 </li>
-      <li>underfitting 상황을 생각해서 epoch을 높였더니 성능이 향상되었다</li>
-    </li>
-    <li>아쉬운 점
-      <li>프로젝트에서 한글 토큰을 잘 만들지 못해서 아쉬웠다</li>
-      <li>토큰화를 잘 하지 못해서 띄어쓰기에 따라서 답변이 달라진다</li>
-    </li>
-    <li>느낀 점
-      <li>어려운 개념이라도 노력하면 이해할 수 있다는 것을 느꼈다</li>
-      <li>챗봇도 결국 어떤 데이터를 학습하냐에 따라 대답이 달라진다</li>
-    </li>
-    <li>어려웠던 점
-      <li>transformer의 구조를 이해하는데 어려웠다</li>
-      <li>custom 모델 저장하는 데 config 설정하는 것이 어려웠다</li>
-    </li>
+    <li> 배운 점 </li>
+      <ul>
+        <li>transformer의 구조에 대해 좀 더 명확히 이해할 수 있었다 </li>
+        <li>custom 모델 저장하는 방법을 배웠다 </li>
+        <li>숫자를 제거하는 전처리 제거만으로도 대답이 확연히 달라지는 것을 볼 수 있었다 </li>
+        <li>underfitting 상황을 생각해서 epoch을 높였더니 성능이 향상되었다</li>
+      </ul>
+    <li> 아쉬운 점 </li>
+      <ul>
+        <li>프로젝트에서 한글 토큰을 잘 만들지 못해서 아쉬웠다</li>
+        <li>토큰화를 잘 하지 못해서 띄어쓰기에 따라서 답변이 달라진다</li>
+      </ul>
+    <li> 느낀 점 </li>
+      <ul>
+        <li>어려운 개념이라도 노력하면 이해할 수 있다는 것을 느꼈다</li>
+        <li>챗봇도 결국 어떤 데이터를 학습하냐에 따라 대답이 달라진다</li>
+      </ul>
+    <li> 어려웠던 점 </li>
+      <ul>
+        <li>transformer의 구조를 이해하는데 어려웠다</li>
+        <li>custom 모델 저장하는 데 config 설정하는 것이 어려웠다</li>
+      </ul>
   </div>
 </details>
+
 <details>
   <summary><b>GPT 구현하기 회고</b></summary>
   <div markdown="1">
-    <li> 배운 점
-      <li>논문을 읽고 이를 바탕으로 GPT 모델을 직접 구현해볼 수 있었다</li>
-    </li>
-    <li>아쉬운 점
-      <li>Unsupervised pre-training 단계에서 좀 더 다양한 문장들을 실험해보면 좋을 것 같았다</li>
-      <li>데이터셋이 적어서 pretrain weight를 불러오는게 오히려 성능이 좋지 않았다</li>
-    </li>
-    <li>느낀 점
-      <li>transformer보다도 일반화 성능이 잘 되는 것 같았다</li>
-    </li>
-    <li>어려웠던 점
-      <li>직접 구현하는 과정에서 모델 shape를 맞추는 것이 생각보다 까다로웠다</li>
-      <li>기존 코드를 수정하는 과정에서 오류가 많이 났다</li>
-    </li>
+    <li> 배운 점 </li>
+      <ul>
+        <li>논문을 읽고 이를 바탕으로 GPT 모델을 직접 구현해볼 수 있었다</li>
+      </ul>
+    <li> 아쉬운 점 </li>
+      <ul>
+        <li>Unsupervised pre-training 단계에서 좀 더 다양한 문장들을 실험해보면 좋을 것 같았다</li>
+        <li>데이터셋이 적어서 pretrain weight를 불러오는게 오히려 성능이 좋지 않았다</li>
+      </ul>
+    <li> 느낀 점 </li>
+      <ul><li>transformer보다도 일반화 성능이 잘 되는 것 같았다</li></ul>
+    <li> 어려웠던 점 </li>
+      <ul>
+        <li>직접 구현하는 과정에서 모델 shape를 맞추는 것이 생각보다 까다로웠다</li>
+        <li>기존 코드를 수정하는 과정에서 오류가 많이 났다</li>
+      </ul>
   </div>
 </details>
 
